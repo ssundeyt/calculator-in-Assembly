@@ -1,7 +1,7 @@
 # calculator-in-Assembly
 this is a calculator I wrote in Assembly and C to practice interactions between C and Assembly. 
 
-The calculator works, and can handle rather simple equations such as 20+20. It can only handle somewhat more complex equiations like multiplication with decimals (10*0.1) and division with decimals. It also follows PEDMAS, so asking it to solve for e.g: 10*(10+10) will work.  
+The calculator works, and can handle rather simple equations such as 20+20. It can only handle somewhat more complex equiations like multiplication with decimals (10x0.1) and division with decimals. It also follows PEDMAS, so asking it to solve for e.g: 10x(10+10) will work.  
 
 In assembly, I use xmm registers instead of integers to handle the decimals, and also storing data in xmm0 to return.
 
